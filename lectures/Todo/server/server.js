@@ -52,5 +52,6 @@ app.listen(PORT, () => {
         .then(() => {
             console.log("Connected to Database")
         })
+        .catch(err => console.log(err))
     console.log(`Server is runnning on port ${PORT}`)
 })
