@@ -1,7 +1,7 @@
 {
-  "name": "restful-api",
+  "name": "week2",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "crudAssignment.js",
   "scripts": {
     "devStart": "nodemon server.js"
   },
@@ -10,11 +10,11 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
     "express": "^4.21.2",
-    "fs": "^0.0.1-security",
-    "path": "^0.12.7"
-  },
-  "devDependencies": {
+    "mongoose": "^8.9.5",
     "nodemon": "^3.1.9"
   }
 }
