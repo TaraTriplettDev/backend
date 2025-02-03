@@ -1,0 +1,11 @@
+{
+  "name": "intro-day-1-in-class",
+  "version": "1.0.0",
+  "description": "",
+  "main": "functions.js",
+  "scripts": {
+    "test": "mocha -w test.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
