@@ -49,6 +49,12 @@ app.post("/newTodo", (req, res) => {
   });
 });
 
+app.put("/editTodo/:id", async (req, res) => {
+  console.log("Edit Route HIT", req.body);
+  await ToDo.findByIdAndUpdate(req.params.id, req.body);
+  res.json({ message: "Todo Edited"});
+})
+
 app.delete("/deleteTodo/:id", async (req, res) => {
   console.log("Delete Route HIT", req.body);
   await ToDo.findByIdAndDelete(req.params.id);

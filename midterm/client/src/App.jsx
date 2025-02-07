@@ -69,7 +69,7 @@ function App() {
   const handleEditSubmit = (e) => {
     axios({
       method: "put",
-      url: `http://localhost:3000/edit/${e.target.id}`,
+      url: `http://localhost:3000/editTodo/${e.target.id}`,
       data: edit,
     })
       .then((res) => {
